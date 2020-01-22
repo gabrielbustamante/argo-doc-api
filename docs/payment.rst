@@ -1,4 +1,4 @@
-Checkout
+Payment
 ==================
 
 Requisição para realizar o pagamento de um cotação.

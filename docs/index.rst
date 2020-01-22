@@ -5,4 +5,4 @@
    :caption: Fluxo de Contratação
 
    contributing
-   checkout
+   payment
