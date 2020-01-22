@@ -9,6 +9,7 @@ Requisição para realizar o pagamento de um cotação.
     Identificador da cotação
 ``paymentOption`` 
     Seção referente as informações de pagamento
+
     ``paymentMethodId`` Define o tipo de pagamento (1 - Boleto, 2 - VISA, 3 - MASTERCARD)
 
     ``installmentNumber`` Número de parcelas
@@ -23,6 +24,7 @@ Requisição para realizar o pagamento de um cotação.
     
 ``insuredData`` 
     Seção referente as informações do segurado da apólice (Devem ser as mesmas informadas no momento de realizar uma cotação).
+
     ``Name`` Nome
 
     ``Email`` E-mail
@@ -45,12 +47,13 @@ Requisição para realizar o pagamento de um cotação.
 
     ``neighborhood`` Bairro
 
-    ``state`` Estado (Formato UF: RS; SP; RJ)
+    ``state`` UF
 
     ``city`` Cidade
 
 ``brokerInfo`` 
     Seção referente as informações da corretora.
+
     ``cnpj`` CNPJ
 
     ``name`` Nome
@@ -61,9 +64,10 @@ Requisição para realizar o pagamento de um cotação.
 
 ``pepData`` 
     Seção referente as informações de PEP. (Preencher somente se for uma pessoa exposta politicamente).
+
     ``PEP`` 'true' ou 'false'
 
-    ``IDontWantToFillInTheInformation`` 'true' ou 'false'
+    ``IDontWantToFillInTheInformation`` Se deseja preencher os campos seguintes? 'true' ou 'false'
 
     ``EstimatedPatrimony`` Patrimônio estimado
 

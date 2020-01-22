@@ -2,8 +2,20 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Fluxo de Contratação
+   :caption: Contratação
 
    riskform
    quotation
    checkout
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Moderação
+
+   moderation
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Apólice
+
+   policy
