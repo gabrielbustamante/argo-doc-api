@@ -1,9 +1,31 @@
 Cotação
 ==================
 
-Requisição para realizar uma nova cotação.
 
-.. Note:: .
+Obter cotação
+^^^^^^^^^^^^^^
+Serviço utilizado para se recuperar ou obter os dados de uma cotação utilizando o identificador único no retorno da cortação.
+
+**Endpoint**
+
+::
+
+    GET {{URL_AMBIENTE}}/quotation/api/quotation?identifier=c051cb56-6b95-4741-9bc2-6caf9978252d
+
+
+**Response**
+
+::
+
+     asdsadasda
+
+
+
+
+Realizar cotação.
+^^^^^^^^^^^^^^
+Serviço utilizado para soliciatar cotação.
+
 
 ``IdOperation``
     Identificador da operação utilizada.
