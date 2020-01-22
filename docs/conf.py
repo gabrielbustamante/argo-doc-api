@@ -54,9 +54,9 @@ def get_git_branch():
 
 # -- Project information -----------------------------------------------------
 
-project = u'Read the Docs Sphinx Theme Examples'
-copyright = u'2018, Read the Docs, Inc & contributors'
-author = u'Read the Docs, Inc & contributors'
+project = u'Argo API - Doc'
+copyright = u'2020, Gabriel Bustamante'
+author = u'Gabriel Bustamante'
 
 # The short X.Y version
 version = u''
