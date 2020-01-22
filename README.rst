@@ -1,5 +1,5 @@
 ***********************************
-Read the Docs Sphinx Theme Examples
+Argo Digital API - Doc
 ***********************************
 
 The goal of this project is to illustrate what documentation looks like with different `Sphinx`_ themes when built locally and when built by `Read the Docs`_.
