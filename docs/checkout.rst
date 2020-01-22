@@ -3,61 +3,74 @@ Checkout
 
 Requisição para realizar o pagamento de um cotação.
 
-.. Note:: IdentityServer supports a subset of the OpenID Connect and OAuth 2.0 authorize request parameters. For a full list, see `here <https://openid.net/specs/openid-connect-core-1_0.html#AuthRequest>`_.
+.. Note:: .
 
-``client_id``
-    identifier of the client (required).
-``request``
-    instead of providing all parameters as individual query string parameters, you can provide a subset or all of them as a JWT
-``request_uri``
-    URL of a pre-packaged JWT containing request parameters
-``scope``
-    one or more registered scopes (required)
-``redirect_uri`` 
-    must exactly match one of the allowed redirect URIs for that client (required)
-``response_type`` 
-    ``id_token`` requests an identity token (only identity scopes are allowed)
+``quotationCode``
+    Identificador da cotação, obtida no passo anterior.
+``paymentOption`` 
+    Seção referente as informações de pagamento
+    ``paymentMethodId`` Define o tipo de pagamento, se é boleto ou cartão master/visa
 
-    ``token`` requests an access token (only resource scopes are allowed)
+    ``installmentNumber`` Número de parcelas
 
-    ``id_token token`` requests an identity token and an access token
+    ``cardNumber`` Número do cartão
 
-    ``code`` requests an authorization code
+    ``cardName`` Nome que consta no cartão
 
-    ``code id_token`` requests an authorization code and identity token
+    ``cardExpirationDate`` Data de expieração do cartão (Formato: AAAA/MM/DD)
 
-    ``code id_token token`` requests an authorization code, identity token and access token
+    ``cardSecurityCode`` Código de segurança do cartão (CVV)
     
-``response_mode``
-    ``form_post`` sends the token response as a form post instead of a fragment encoded redirect (optional)
-``state`` 
-    identityserver will echo back the state value on the token response, 
-    this is for round tripping state between client and provider, correlating request and response and CSRF/replay protection. (recommended)
-``nonce`` 
-    identityserver will echo back the nonce value in the identity token, this is for replay protection)
+``insuredData`` 
+    Seção referente as informações do segurado da apólice (Devem ser as mesmas informadas no momento de realizar uma cotação).
+    ``Name`` Nome
 
-    *Required for identity tokens via implicit grant.*
-``prompt``
-    ``none`` no UI will be shown during the request. If this is not possible (e.g. because the user has to sign in or consent) an error is returned
+    ``Email`` E-mail
+
+    ``Identity`` CPF/CNPJ do segurado
+
+    ``gender`` Gênero (M ou F)
+
+    ``birthDate`` Data de Nascimento (Formato: AAAA/MM/DD)
+
+    ``phoneNumber`` Telefone (CVV)
+
+    ``zipCode`` CEP
+
+    ``address`` Endereço 
+
+    ``number`` Número do endereço
     
-    ``login`` the login UI will be shown, even if the user is already signed-in and has a valid session
-``code_challenge``
-    sends the code challenge for PKCE
-``code_challenge_method``
-    ``plain`` indicates that the challenge is using plain text (not recommended)
-    ``S256`` indicates the challenge is hashed with SHA256
-``login_hint``
-    can be used to pre-fill the username field on the login page
-``ui_locales``
-    gives a hint about the desired display language of the login UI
-``max_age``
-    if the user's logon session exceeds the max age (in seconds), the login UI will be shown
-``acr_values``
-    allows passing in additional authentication related information - identityserver special cases the following proprietary acr_values:
-        
-        ``idp:name_of_idp`` bypasses the login/home realm screen and forwards the user directly to the selected identity provider (if allowed per client configuration)
-        
-        ``tenant:name_of_tenant`` can be used to pass a tenant name to the login UI
+    ``complement`` Complemento
+
+    ``neighborhood`` Bairro
+
+    ``state`` Estado (Formato UF: RS; SP; RJ)
+
+    ``city`` Cidade
+
+``brokerInfo`` 
+    Seção referente as informações da corretora.
+    ``cnpj`` CNPJ
+
+    ``name`` Nome
+
+    ``email`` E-mail
+
+    ``susepNumber`` Número SUSEP
+
+``pepData`` 
+    Seção referente as informações de PEP. (Preencher somente se for uma pessoa exposta politicamente).
+    ``PEP`` 'true' ou 'false'
+
+    ``IDontWantToFillInTheInformation`` 'true' ou 'false'
+
+    ``EstimatedPatrimony`` Patrimônio estimado
+
+    ``FinantialSituation`` Situação financeira
+
+    ``Profession`` Profissão
+
 
 **Endpoint**
 
