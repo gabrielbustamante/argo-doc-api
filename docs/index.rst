@@ -5,4 +5,5 @@
    :caption: Fluxo de Contratação
 
    riskform
+   quotation
    checkout
