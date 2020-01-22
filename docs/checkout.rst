@@ -6,10 +6,10 @@ Requisição para realizar o pagamento de um cotação.
 .. Note:: .
 
 ``quotationCode``
-    Identificador da cotação, obtida no passo anterior.
+    Identificador da cotação
 ``paymentOption`` 
     Seção referente as informações de pagamento
-    ``paymentMethodId`` Define o tipo de pagamento, se é boleto ou cartão master/visa
+    ``paymentMethodId`` Define o tipo de pagamento (1 - Boleto, 2 - VISA, 3 - MASTERCARD)
 
     ``installmentNumber`` Número de parcelas
 

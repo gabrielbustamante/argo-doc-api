@@ -449,3 +449,310 @@ Detalhamento do formulário de risco para o produto de Médicos Pessoa Jurídica
       }
     ]
 
+
+Bikes
+^^^^^^^^^^^^^^
+Detalhamento do formulário de risco para o produto de Bikes::
+
+    {
+        "Identifier": "205a7953-1c7a-4dc3-8d7c-ef597807accf",
+        "IdOperation": 14,
+        "RiskAnalysis": [
+            {
+                //Você é novo segurado ou renovação de outra companhia?
+                //Obrigatória
+                //1 - Novo
+                //2 - Renovação
+                "questionId": 1,
+                "answer": "1"
+            },
+            {
+                //Qual a sua profissão?
+                //Obrigatória
+                //Texto livre
+                "questionId": 2,
+                "answer": "Desenvolvedor"
+            },
+            {
+                //Modalidades
+                //Obrigatório
+                //Escolha 1 ou mais (Repita o bloco para respostas adicionais)
+                //1 - Estrada
+                //2 - Triatlo
+                //3 - Mountain Bike
+                //4 - Downhill
+                "questionId": 3,
+                "answer": "1"
+            },
+            {
+                //Utilização
+                //Obrigatório
+                //Escolha 1 ou mais (Repita o bloco para respostas adicionais)
+                //1 - Locomoção diária (trabalho, escola, etc)
+                //2 - Lazer / Hobby
+                //3 - Uso profissional
+                "questionId": 4,
+                "answer": "1"
+            },
+            {
+                //Participa de Competições
+                //Obrigatória
+                //1 - Sim
+                //2 - Não
+                "questionId": 5,
+                "answer": "1"
+            },
+            {
+                //Treina em Assessoria Esportiva
+                //Obrigatório
+                //1 - Sim
+                //2 - Não
+                "questionId": 6,
+                "answer": "1"
+            },
+            {
+                //Locais onde Pedala
+                //Obrigatório
+                //Selecione 1 ou mais (Repita o bloco para respostas adicionais)
+                //1 - Área Urbana
+                //2 - Auto Estrada
+                //3 - Campo ou Estradas de Terra
+                //4 - Montanha
+                "questionId": 7,
+                "answer": "1"
+            },
+            {
+                //Frequência de Treino
+                //Obrigatório (Escolha 1)
+                //1 - 1 a 2 vezes / semana
+                //2 - 3 a 5 vezes / semana
+                //3 - mais de 5 vezes
+                "questionId": 8,
+                "answer": "1"
+            },
+            {
+                //Descrição da Bicicleta
+                //Obrigatório
+                //Texto Livre
+                "questionId": 9,
+                "answer": "Texto Livre"
+            },
+            {
+                //Local de Compra
+                //Obrigatório
+                //Texto Livre
+                "questionId": 10,
+                "answer": "Texto Livre"
+            },
+            {
+                //Valor de Mercado
+                //Obrigatório
+                //Valor Decimal
+                "questionId": 11,
+                "answer": "3000"
+            },
+            {
+                //Número de Série
+                //Obrigatório
+                //Texto Livre
+                "questionId": 12,
+                "answer": "Texto Livre"
+            },
+            {
+                //Bike Nova (0km)
+                //Obrigatório (Escolha uma opção)
+                //1 - Sim
+                //2 - Não
+                "questionId": 13,
+                "answer": "1"
+            },
+            {
+                //Ano de Fabricação
+                //Obrigatório
+                //Número
+                "questionId": 14,
+                "answer": "2016"
+            },
+            {
+                //Possui Nota Fiscal?
+                //Obrigatório (Escolha uma opção)
+                //1 - Sim
+                //2 - Não
+                "questionId": 15,
+                "answer": "Texto Livre"
+            },
+            {
+                //Bike Original
+                //Obrigatório (Escolha uma opção)
+                //1 - Sim
+                //2 - Não
+                "questionId": 16,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Quadro
+                //Opcional
+                //Texto Livre
+                "questionId": 17,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Pedivela
+                //Opcional
+                //Texto Livre
+                "questionId": 18,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Câmbio Traseiro
+                //Opcional
+                //Texto Livre
+                "questionId": 19,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Selim
+                //Opcional
+                //Texto Livre
+                "questionId": 20,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Mesa
+                //Opcional
+                //Texto Livre
+                "questionId": 21,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Trocador Traseiro
+                //Opcional
+                //Texto Livre
+                "questionId": 22,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Cubos
+                //Opcional
+                //Texto Livre
+                "questionId": 23,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Pneus
+                //Opcional
+                //Texto Livre
+                "questionId": 24,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Cor
+                //Opcional
+                //Texto Livre
+                "questionId": 25,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Tamanho
+                //Opcional
+                //Texto Livre
+                "questionId": 26,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Garfo
+                //Opcional
+                //Texto Livre
+                "questionId": 27,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Freios
+                //Opcional
+                //Texto Livre
+                "questionId": 28,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Câmbio Dianteiro
+                //Opcional
+                //Texto Livre
+                "questionId": 29,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Canote
+                //Opcional
+                //Texto Livre
+                "questionId": 30,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Guidão
+                //Opcional
+                //Texto Livre
+                "questionId": 31,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Trocador Dianteiro
+                //Opcional
+                //Texto Livre
+                "questionId": 32,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Rodas
+                //Opcional
+                //Texto Livre
+                "questionId": 33,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Pedal
+                //Opcional
+                //Texto Livre
+                "questionId": 34,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Número de Marchas
+                //Opcional
+                //Texto Livre
+                "questionId": 35,
+                "answer": "Texto Livre"
+            },
+            {
+                //Modificações - Clip
+                //Opcional
+                //Texto Livre
+                "questionId": 36,
+                "answer": "Texto Livre"
+            }
+        ],
+        //Dados do Proponente (Todos os campos abaixo são obrigatórios)
+        "PersonalData": {
+            "Name": "Test User",
+            "Email": "email@argo.com",
+            "Identity": "00000000000"
+        },
+        //Fotos da Bike e/ou Nota Fiscal.
+        "Documents": [
+            {
+                "Name": "teste.jpg",
+                "File": "" // enviar o base64 do arquivo
+            },
+            {
+                "Name": "teste1.jpg",
+                "File": "" // enviar o base64 do arquivo
+            },
+            {
+                "Name": "teste2.jpg",
+                "File": "" // enviar o base64 do arquivo
+            },
+            {
+                "Name": "teste3.jpg",
+                "File": "" // enviar o base64 do arquivo
+            }
+        ]
+    }
