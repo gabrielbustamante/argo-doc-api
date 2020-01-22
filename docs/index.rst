@@ -2,7 +2,6 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: Fluxo de Contratação
+   :caption: Contents:
 
    contributing
-   payment
