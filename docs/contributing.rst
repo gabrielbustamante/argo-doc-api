@@ -1,4 +1,4 @@
-Formulário de risco
+Formulários de risco
 ===========
 
 Relação de perguntas x respostas do formulário de risco para cada produto E&O, diferenciados por Pessoa Física e Pessoa Jurídica.
