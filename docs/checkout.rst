@@ -124,9 +124,8 @@ Requisição para realizar o pagamento de um cotação.
             "EstimatedPatrimony": "",
             "FinantialSituation": "",
             "Profession": ""
-        },
-        "moderationType": 2
+        }
     }
 
 
-.. Note:: You can use the `IdentityModel <https://github.com/IdentityModel/IdentityModel2>`_ client library to programmatically create authorize requests .NET code. For more information check the IdentityModel `docs <https://identitymodel.readthedocs.io/en/latest/client/authorize.html>`_.
+.. Note:: Ao preencher as informações de 'pepData', a cotação fica sujeita a moderação e o checkout só poderá ser realizado após a aprovação da mesma.

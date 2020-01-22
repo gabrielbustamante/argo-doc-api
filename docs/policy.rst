@@ -11,7 +11,7 @@ Serviço para obter o status de pagamento das parcelas e no caso do boleto o pdf
 
 ::
 
-    GET {{URL_AMBIENTE}}/moderation/api/moderation/GetByQuotation?quotationIdentifier={Identificador da Cotação}
+    GET {{URL_AMBIENTE}}/policy/api/installments?certificateNumber={Número do Certificado}
 
 
 **Response**
@@ -30,7 +30,7 @@ Serviço utilizado para se obter o certificado em PDF. Dados de entrada: CPF/CNP
 
 ::
 
-    GET {{URL_AMBIENTE}}/moderation/api/moderation/GetByQuotation?quotationIdentifier={Identificador da Cotação}
+    GET {{URL_AMBIENTE}}/policy/api/policies/detail/{Número do Certificado}
 
 
 **Response**
