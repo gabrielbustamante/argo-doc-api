@@ -26,14 +26,14 @@ Serviço para obter o status de pagamento das parcelas e no caso do boleto o pdf
                   "paid": true,
                   "value": 150.00,
                   "valuePaid": 150.00,
-                  "billingDate": "2019-12-23T00:00:00"
+                  "billingDate": "2019-11-23T00:00:00"
               },
               {
                   "installmentNumber": 2,
                   "paid": true,
                   "value": 150.00,
                   "valuePaid": 150.00,
-                  "billingDate": "2020-01-23T00:00:00"
+                  "billingDate": "2019-12-23T00:00:00"
               },
               {
                   "installmentNumber": 3,

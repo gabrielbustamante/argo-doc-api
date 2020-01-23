@@ -17,7 +17,243 @@ Serviço utilizado para se recuperar ou obter os dados de uma cotação utilizan
 
 ::
 
-     asdsadasda
+    {
+        "id": 4294,
+        "identifier": "d815bf9d-b8bb-4dd6-af90-d3061a7eefb4",
+        "proposalNumber": "4294000000020200035",
+        "name": "teste teste",
+        "email": "teste@teste.com",
+        "identity": "68571561311",
+        "riskAnalysis": {
+            "NovoSegurado": "Novo",
+            "NomedaCompanhiaAnterior": "",
+            "Especialidade": "Sem Procedimentos Cirúrgicos",
+            "ImportânciaSegurada": "75000.00",
+            "CRM": "3213213213",
+            "Sinistralidade": "Nenhum",
+            "Númerodereclamações": "Nenhum",
+            "ConhecimentoPréviodeFatos": "Não",
+            "NomedosReclamantes": ""
+        },
+        "effectiveDate": "2020-01-24T03:00:00",
+        "updatedAt": "2020-01-23T14:36:38.2384162",
+        "validThrough": "2020-02-07T14:36:26.7382647",
+        "moderationProtocol": "",
+        "status": 7,
+        "netValue": 438.56,
+        "discount": 0,
+        "paymentOptions": [
+            {
+            "type": "Ticket",
+            "totalAmount": 470.93,
+            "installments": [
+                {
+                "installmentNumber": 1,
+                "totalInstallment": 470.93,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 2,
+                "totalInstallment": 235.46,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 3,
+                "totalInstallment": 156.98,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 4,
+                "totalInstallment": 117.73,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                }
+            ]
+            },
+            {
+            "type": "CreditCard",
+            "totalAmount": 470.93,
+            "installments": [
+                {
+                "installmentNumber": 1,
+                "totalInstallment": 470.93,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 2,
+                "totalInstallment": 235.46,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 3,
+                "totalInstallment": 156.98,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                },
+                {
+                "installmentNumber": 4,
+                "totalInstallment": 117.73,
+                "insterestValue": 0,
+                "iof": 32.37,
+                "totalValue": 470.93
+                }
+            ]
+            }
+        ],
+        "totalAmount": 470.93,
+        "installments": [
+            {
+            "installmentNumber": 1,
+            "totalInstallment": 470.93,
+            "insterestValue": 0,
+            "iof": 32.37,
+            "totalValue": 470.93
+            },
+            {
+            "installmentNumber": 2,
+            "totalInstallment": 235.46,
+            "insterestValue": 0,
+            "iof": 32.37,
+            "totalValue": 470.93
+            },
+            {
+            "installmentNumber": 3,
+            "totalInstallment": 156.98,
+            "insterestValue": 0,
+            "iof": 32.37,
+            "totalValue": 470.93
+            },
+            {
+            "installmentNumber": 4,
+            "totalInstallment": 117.73,
+            "insterestValue": 0,
+            "iof": 32.37,
+            "totalValue": 470.93
+            }
+        ],
+        "deductibles_New": [
+            {
+            "name": "Sem franquia",
+            "coverages": [
+                "Ressarcimentos especiais",
+                "Despesas de defesa em ações judiciais, cíveis, criminais e processos administrativos",
+                "Indenizações e acordos",
+                "Honorários retidos",
+                "Calúnia, injúria e difamação",
+                "Omissão de socorro",
+                "Infecção hospitalar",
+                "Chefe de equipe ou diretor médico",
+                "Cobertura extensiva para a pessoa jurídica",
+                "Pagamentos suplementares",
+                "Danos a Reputação",
+                "Custas Emergenciais"
+            ]
+            }
+        ],
+        "operationId": 35,
+        "operationCode": "PROTECTOR_MEDICOS_PF",
+        "personalData": {
+            "name": "teste teste",
+            "firstName": "teste",
+            "lastName": "",
+            "identity": "68571561311",
+            "email": "teste@teste.com",
+            "gender": null,
+            "birthDate": null,
+            "phoneNumber": null,
+            "zipCode": null,
+            "address": null,
+            "neighborhood": null,
+            "number": null,
+            "state": null,
+            "city": null,
+            "complement": null,
+            "secondaryDriverCPF": null,
+            "secondaryDriverName": null
+        },
+        "deductiblesAndCoverages": {
+            "deductibles": [
+            {
+                "name": "Sem franquia",
+                "coverages": [
+                "Ressarcimentos especiais",
+                "Despesas de defesa em ações judiciais, cíveis, criminais e processos administrativos",
+                "Indenizações e acordos",
+                "Honorários retidos",
+                "Calúnia, injúria e difamação",
+                "Omissão de socorro",
+                "Infecção hospitalar",
+                "Chefe de equipe ou diretor médico",
+                "Cobertura extensiva para a pessoa jurídica",
+                "Pagamentos suplementares",
+                "Danos a Reputação",
+                "Custas Emergenciais"
+                ]
+            }
+            ],
+            "lmiAndCoverages": [
+            {
+                "value": "75000.00",
+                "coverages": [
+                "Ressarcimentos especiais",
+                "Despesas de defesa em ações judiciais, cíveis, criminais e processos administrativos",
+                "Indenizações e acordos",
+                "Honorários retidos",
+                "Calúnia, injúria e difamação",
+                "Omissão de socorro",
+                "Infecção hospitalar",
+                "Chefe de equipe ou diretor médico",
+                "Cobertura extensiva para a pessoa jurídica",
+                "Pagamentos suplementares",
+                "Danos a Reputação",
+                "Custas Emergenciais"
+                ]
+            }
+            ],
+            "netValueAndCoverages": [
+            {
+                "value": "470.93",
+                "coverages": [
+                "Ressarcimentos especiais",
+                "Despesas de defesa em ações judiciais, cíveis, criminais e processos administrativos",
+                "Indenizações e acordos",
+                "Danos a Reputação",
+                "Custas Emergenciais"
+                ],
+                "proponents": null
+            },
+            {
+                "value": "NÃ£o hÃ¡ cobranÃ§a de prÃªmio",
+                "coverages": [
+                "Honorários retidos",
+                "Calúnia, injúria e difamação",
+                "Omissão de socorro",
+                "Infecção hospitalar",
+                "Chefe de equipe ou diretor médico",
+                "Cobertura extensiva para a pessoa jurídica",
+                "Pagamentos suplementares"
+                ],
+                "proponents": null
+            }
+            ]
+        },
+        "voucher": null,
+        "deductibles": [
+            "Sem franquia"
+        ]
+        }
 
 
 
@@ -46,6 +282,13 @@ Serviço utilizado para soliciatar cotação.
     ``Email`` E-mail
 
     ``Identity`` CPF/CNPJ do segurado
+
+``Documents`` 
+    Utilizado apenas na cotação do produto de Bikes para as fotos da Bike e/ou Nota Fiscal.
+
+    ``Name`` Nome do arquivo
+
+    ``File`` Base64 do arquivo enviado
 
 
 **Endpoint**
@@ -112,7 +355,6 @@ Serviço utilizado para soliciatar cotação.
 ::
 
     {
-        "Identifier": "205a7953-1c7a-4dc3-8d7c-ef597807accf",
         "IdOperation": 14,
         "RiskAnalysis": [
             {
@@ -222,7 +464,6 @@ Serviço utilizado para soliciatar cotação.
                 "answer": "Texto Livre"
             },
             {
-                //Modificações - Freios
                 "questionId": 28,
                 "answer": "Texto Livre"
             },
@@ -267,21 +508,21 @@ Serviço utilizado para soliciatar cotação.
         "Documents": [
             {
                 "Name": "bike.jpg",
-                "File": ""
+                "File": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             },
             {
                 "Name": "bike1.jpg",
-                "File": ""
+                "File": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             },
             {
                 "Name": "bike2.jpg",
-                "File": ""
+                "File": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             },
             {
                 "Name": "bike3.jpg",
-                "File": ""
+                "File": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
             }
         ]
     }
 
-.. Note:: You can use the `IdentityModel <https://github.com/IdentityModel/IdentityModel2>`_ client library to programmatically create authorize requests .NET code. For more information check the IdentityModel `docs <https://identitymodel.readthedocs.io/en/latest/client/authorize.html>`_.
+.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço .....
