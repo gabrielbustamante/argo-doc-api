@@ -258,7 +258,7 @@ Serviço utilizado para se recuperar ou obter os dados de uma cotação utilizan
 
 
 
-Realizar cotação.
+Realizar cotação
 ^^^^^^^^^^^^^^
 Serviço utilizado para soliciatar cotação.
 

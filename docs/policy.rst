@@ -5,7 +5,10 @@ Apólices
 
 Obter parcelas
 ^^^^^^^^^^^^^^
-Serviço para obter o status de pagamento das parcelas e no caso do boleto o pdf do documento.
+Serviço para obter o status de pagamento das parcelas.
+
+``certificateNumber``
+    Número do certificado, gerado após o Checkout.
 
 **Endpoint**
 
@@ -50,7 +53,10 @@ Serviço para obter o status de pagamento das parcelas e no caso do boleto o pdf
 
 Obter Certificado
 ^^^^^^^^^^^^^^
-Serviço utilizado para se obter o certificado em PDF. Dados de entrada: CPF/CNPJ do segurado, Número do Certificado, CNPJ do corretor.
+Serviço utilizado para se obter o certificado em PDF.
+
+``certificateNumber``
+    Número do certificado, gerado após o Checkout.
 
 **Endpoint**
 

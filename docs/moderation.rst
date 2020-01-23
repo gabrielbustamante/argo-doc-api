@@ -21,11 +21,5 @@ Status da moderação
 
      asdsadasda
 
-Médicos - Pessoa Jurídica
-^^^^^^^^^^^^^^
-
-
-Bikes
-^^^^^^^^^^^^^^
 
 
