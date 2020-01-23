@@ -2,6 +2,12 @@
 
 .. toctree::
    :maxdepth: 1
+   :caption: Configurações
+
+   configuration
+
+.. toctree::
+   :maxdepth: 1
    :caption: Contratação
 
    riskform
