@@ -5,7 +5,7 @@ As cotações podem estar sujeitas a moderação, no fluxo de Produtos E&O (Méd
 
 .. image:: images/terminology.png
 
-Conferir status da moderação
+Status da moderação
 ^^^^^^^^^^^^^^
 
 **Endpoint**

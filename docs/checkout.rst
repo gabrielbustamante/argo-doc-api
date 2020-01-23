@@ -83,7 +83,7 @@ Requisição para realizar o pagamento de um cotação.
     POST {{URL_AMBIENTE}}/checkout/api/checkout/
 
 
-**Body**
+**Resquest**
 
 ::
 
@@ -125,6 +125,21 @@ Requisição para realizar o pagamento de um cotação.
             "FinantialSituation": "",
             "Profession": ""
         }
+    }
+
+**Response**
+
+::
+
+    {
+        "documents": [
+            {
+                "id": 96940,
+                "name": "E&O Templates",
+                "url": "https://azuq2brapi.blob.core.windows.net/documents/1f8ca969-eb64-48b1-8e99-991c8684d929/0035202000000000057"
+            }
+        ],
+        "certificateNumber": "0035202000000000057"
     }
 
 
