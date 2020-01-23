@@ -49,7 +49,7 @@ Serviço para solicitar caso necessário uma moderação PEP.
 
     ``PEP`` true ou false
 
-    ``IDontWantToFillInTheInformation`` Caso queira informar os campos de PEP: ``true``, caso contrário: false 
+    ``IDontWantToFillInTheInformation`` Caso queira informar os campos de PEP: ``true``, caso contrário: ``false`` 
 
     ``EstimatedPatrimony`` Patrimônio estimado
 
