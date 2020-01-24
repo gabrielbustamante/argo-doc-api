@@ -7,8 +7,7 @@ Obter parcelas
 ^^^^^^^^^^^^^^
 Serviço para obter o status de pagamento das parcelas.
 
-``certificateNumber``
-    Número do certificado, gerado após o Checkout.
+``certificateNumber`` Número do certificado, gerado após o Checkout.
 
 **Endpoint**
 
@@ -17,9 +16,8 @@ Serviço para obter o status de pagamento das parcelas.
     GET {{URL_AMBIENTE}}/policy/api/installments?certificateNumber={Número do Certificado}
 
 
-**Response**
-
-::
+.. code-block:: json
+    :caption: Response
 
     {
       "application/json": {
@@ -55,8 +53,7 @@ Obter Certificado
 ^^^^^^^^^^^^^^
 Serviço utilizado para se obter o certificado em PDF.
 
-``certificateNumber``
-    Número do certificado, gerado após o Checkout.
+``certificateNumber`` Número do certificado, gerado após o Checkout.
 
 **Endpoint**
 
