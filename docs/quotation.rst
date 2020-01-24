@@ -523,4 +523,25 @@ Exemplo Bikes
         ]
     }
 
+.. Note:: voucher
+
+**Exemplo Bikes**
+
+
+**Endpoint**
+
+::
+
+    GET {{URL_AMBIENTE}}/quotation/api/quotation/get-voucher
+
+**Response**
+
+::
+
+    {
+        "identifier": "18dff6f3-9f1d-42e3-aec2-aa77a901afde",
+        "voucher": "502B3Q"
+    }
+
+
 .. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :ref:`moderation`
