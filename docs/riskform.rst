@@ -454,3 +454,345 @@ Bikes
 ^^^^^^^^^^^^^^
 Detalhamento do formulário de risco para o produto de Bikes::
 
+    [
+      {
+        "Id": 1,
+        "Texto": "Você é novo segurado ou renovação de outra companhia?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Novo"
+          },
+          {
+            "Id": 2,
+            "Texto": "Renovação"
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Texto": "Qual a sua profissão?",
+        "Obrigatório": "Sim",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 3,
+        "Texto": "Modalidades que pedala?",
+        "Obrigatório": "Sim",
+        "Tipo": "Multipla escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Estrada"
+          },
+          {
+            "Id": 2,
+            "Texto": "Triatlo"
+          },
+          {
+            "Id": 3,
+            "Texto": "Mountain Bike"
+          },
+          {
+            "Id": 4,
+            "Texto": "Downhill"
+          }
+        ]
+      },
+      {
+        "Id": 4,
+        "Texto": "Utilização da bike?",
+        "Obrigatório": "Sim",
+        "Tipo": "Multipla escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Locomoção diária (trabalho, escola, etc)"
+          },
+          {
+            "Id": 2,
+            "Texto": "Lazer / Hobby"
+          },
+          {
+            "Id": 3,
+            "Texto": "Uso profissional"
+          }
+        ]
+      },
+      {
+        "Id": 5,
+        "Texto": "Participa de Competições?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Sim"
+          },
+          {
+            "Id": 2,
+            "Texto": "Não"
+          }
+        ]
+      },
+      {
+        "Id": 6,
+        "Texto": "Treina em Assessoria Esportiva?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Sim"
+          },
+          {
+            "Id": 2,
+            "Texto": "Não"
+          }
+        ]
+      },
+      {
+        "Id": 7,
+        "Texto": "Locais onde Pedala?",
+        "Obrigatório": "Sim",
+        "Tipo": "Multipla escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Área Urbana"
+          },
+          {
+            "Id": 2,
+            "Texto": "Auto Estrada"
+          },
+          {
+            "Id": 3,
+            "Texto": "Campo ou Estradas de Terra"
+          },
+          {
+            "Id": 4,
+            "Texto": "Montanha"
+          }
+        ]
+      },
+      {
+        "Id": 8,
+        "Texto": "Frequência de Treino?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "1 a 2 vezes / semana"
+          },
+          {
+            "Id": 2,
+            "Texto": "3 a 5 vezes / semana"
+          },
+          {
+            "Id": 3,
+            "Texto": "Mais de 5 vezes"
+          }
+        ]
+      },
+      {
+        "Id": 9,
+        "Texto": "Descrição da Bicicleta",
+        "Obrigatório": "Sim",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 10,
+        "Texto": "Local de Compra",
+        "Obrigatório": "Sim",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 11,
+        "Texto": "Valor de Mercado",
+        "Obrigatório": "Sim",
+        "Tipo": "Decimal"
+      },
+      {
+        "Id": 12,
+        "Texto": "Número de Série",
+        "Obrigatório": "Sim",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 13,
+        "Texto": "Bike Nova (0km)?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Sim"
+          },
+          {
+            "Id": 2,
+            "Texto": "Não"
+          }
+        ]
+      },
+      {
+        "Id": 14,
+        "Texto": "Ano de Fabricação",
+        "Obrigatório": "Sim",
+        "Tipo": "Número"
+      },
+      {
+        "Id": 15,
+        "Texto": "Possui Nota Fiscal?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Sim"
+          },
+          {
+            "Id": 2,
+            "Texto": "Não"
+          }
+        ]
+      },
+      {
+        "Id": 16,
+        "Texto": "Bike Original?",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Sim"
+          },
+          {
+            "Id": 2,
+            "Texto": "Não"
+          }
+        ]
+      },
+      {
+        "Id": 17,
+        "Texto": "Modificações - Quadro",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 18,
+        "Texto": "Modificações - Pedivela",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 19,
+        "Texto": "Modificações - Câmbio Traseiro",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 20,
+        "Texto": "Modificações - Selim",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 21,
+        "Texto": "Modificações - Mesa",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 22,
+        "Texto": "Modificações - Trocador Traseiro",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 23,
+        "Texto": "Modificações - Cubos",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 24,
+        "Texto": "Modificações - Pneus",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 25,
+        "Texto": "Modificações - Cor",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 26,
+        "Texto": "Modificações - Tamanho",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 27,
+        "Texto": "Modificações - Garfo",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 28,
+        "Texto": "Modificações - Freios",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 29,
+        "Texto": "Modificações - Câmbio Dianteiro",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 30,
+        "Texto": "Modificações - Canote",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 31,
+        "Texto": "Modificações - Guidão",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 32,
+        "Texto": "Modificações - Trocador Dianteiro",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 33,
+        "Texto": "Modificações - Rodas",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 34,
+        "Texto": "Modificações - Pedal",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 35,
+        "Texto": "Modificações - Número de Marchas",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      },
+      {
+        "Id": 36,
+        "Texto": "Modificações - Clip",
+        "Obrigatório": "Não",
+        "Tipo": "Texto Livre"
+      }
+    ]

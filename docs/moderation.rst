@@ -1,4 +1,4 @@
-Moderação
+Fluxo Moderação
 ===========
 
 As cotações podem estar sujeitas a moderação, no fluxo de Produtos E&O (Médicos PF e PJ) para os casos de PEP e em todas as contratações de Bikes.

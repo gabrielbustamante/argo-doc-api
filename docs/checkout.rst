@@ -143,4 +143,4 @@ Requisição para realizar o pagamento de um cotação.
     }
 
 
-.. Note:: Ao preencher as informações de 'pepData', a cotação fica sujeita a moderação e o checkout só poderá ser realizado após a aprovação da mesma.
+.. Note:: Ao preencher as informações de 'pepData' no momento da cotação, ela passa por uma processo de moderação e o checkout só poderá ser realizado após a aprovação da mesma.

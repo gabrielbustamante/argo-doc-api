@@ -288,7 +288,7 @@ Serviço utilizado para soliciatar cotação.
 
     ``Name`` Nome do arquivo
 
-    ``File`` Base64 do arquivo enviado
+    ``File`` Base64 do arquivo
 
 
 **Endpoint**
@@ -297,6 +297,9 @@ Serviço utilizado para soliciatar cotação.
 
     POST {{URL_AMBIENTE}}/quotation/api/quotation/
 
+
+Realizar cotação ehehehehe
+""""""""""""""""""
 
 **Exemplo Médicos PF**
 
@@ -323,7 +326,7 @@ Serviço utilizado para soliciatar cotação.
             },
             {
                 "questionId": "5",
-                "answer": "3213213213"
+                "answer": "64121"
             },
             {
                 "questionId": "6",
@@ -343,9 +346,9 @@ Serviço utilizado para soliciatar cotação.
             }
         ],
         "PersonalData": {
-            "Name": "Gabriel Bustamante",
+            "Name": "Test User",
             "Email": "argo@argo.com",
-            "Identity": "05382323070"
+            "Identity": "00000000000"
         },
         "EffectiveDate": "2019-05-20"
     }
