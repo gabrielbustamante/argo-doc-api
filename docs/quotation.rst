@@ -523,7 +523,7 @@ Exemplo Bikes
         ]
     }
 
-.. Note:: voucher
+.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :ref:`moderation`
 
 **Exemplo Bikes**
 
@@ -543,5 +543,5 @@ Exemplo Bikes
         "voucher": "502B3Q"
     }
 
+.. Note:: Serviço utilizado para contratações do produto Bikes quando necessário
 
-.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :ref:`moderation`
