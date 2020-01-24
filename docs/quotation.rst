@@ -264,28 +264,26 @@ Serviço utilizado para soliciatar cotação.
 
 
 ``IdOperation`` Identificador da operação utilizada.
+
 ``EffectiveDate`` Data de inicio da contratação (Formato: AAAA/MM/DD)
+
 ``RiskAnalysis`` 
     Seção referente as perguntas e respostas do respectivo formulário de risco
 
     ``questionId`` Id da questão
-
     ``answer`` Resposta da questão
     
 ``PersonalData`` 
     Seção referente as informações do segurado da apólice (Devem ser as mesmas informadas no momento de realizar uma cotação).
 
     ``Name`` Nome
-
     ``Email`` E-mail
-
     ``Identity`` CPF/CNPJ do segurado
 
 ``Documents`` 
     Seção utilizada apenas na cotação do produto de Bikes para as fotos da Bike e/ou Nota Fiscal.
 
     ``Name`` Nome do arquivo
-
     ``File`` Base64 do arquivo
 
 
