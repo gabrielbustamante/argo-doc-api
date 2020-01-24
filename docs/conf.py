@@ -54,8 +54,8 @@ def get_git_branch():
 
 # -- Project information -----------------------------------------------------
 
-project = u'Argo API - Doc'
-copyright = u'2020, Gabriel Bustamante'
+project = u'Argo API'
+copyright = u'2020, Argo Seguros'
 author = u'Gabriel Bustamante'
 
 # The short X.Y version

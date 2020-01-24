@@ -1,4 +1,8 @@
-.. include:: ../README.rst
+Argo API - Documentation (REST API)
+=============================================
+
+.. image:: images/logo_argo@2x.png
+   :align: center
 
 .. toctree::
    :maxdepth: 1
