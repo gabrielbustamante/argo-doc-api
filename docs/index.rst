@@ -6,12 +6,14 @@ Argo API - Documentation (REST API)
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
    :caption: Introdução
 
    configuration
 
 .. toctree::
    :maxdepth: 1
+   :hidden:
    :caption: Contratação
 
    riskform
@@ -20,12 +22,14 @@ Argo API - Documentation (REST API)
 
 .. toctree::
    :maxdepth: 3
+   :hidden:
    :caption: Moderação
 
    moderation
 
 .. toctree::
    :maxdepth: 3
+   :hidden:
    :caption: Apólice
 
    policy
