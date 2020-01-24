@@ -1,9 +1,8 @@
 Fluxo Moderação
 ===========
 
-As cotações podem estar sujeitas a moderação, no fluxo de Produtos E&O (Médicos PF e PJ) para os casos de PEP e em todas as contratações de Bikes.
+As cotações podem estar sujeitas a moderação, no fluxo de Produtos E&O (Médicos PF e PJ) para os casos de PEP e em todas as contratações de Bikes com ou sem PEP.
 
-.. image:: images/terminology.png
 
 Consulta Status
 ^^^^^^^^^^^^^^
@@ -15,7 +14,7 @@ Consulta Status
     GET {{URL_AMBIENTE}}/moderation/api/moderation/GetByQuotation?quotationIdentifier={Identificador da Cotação}
 
 
-**Body**
+**Response**
 
 ::
 

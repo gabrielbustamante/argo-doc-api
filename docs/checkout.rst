@@ -1,9 +1,7 @@
 Checkout
 ==================
 
-Requisição para realizar o pagamento de um cotação.
-
-.. Note:: .
+Serviço para realizar o pagamento de um cotação.
 
 ``quotationCode``
     Identificador da cotação

@@ -263,10 +263,8 @@ Realizar cotação
 Serviço utilizado para soliciatar cotação.
 
 
-``IdOperation``
-    Identificador da operação utilizada.
-``EffectiveDate``
-   Data de inicio da contratação (Formato: AAAA/MM/DD)
+``IdOperation`` Identificador da operação utilizada.
+``EffectiveDate`` Data de inicio da contratação (Formato: AAAA/MM/DD)
 ``RiskAnalysis`` 
     Seção referente as perguntas e respostas do respectivo formulário de risco
 
@@ -284,7 +282,7 @@ Serviço utilizado para soliciatar cotação.
     ``Identity`` CPF/CNPJ do segurado
 
 ``Documents`` 
-    Utilizado apenas na cotação do produto de Bikes para as fotos da Bike e/ou Nota Fiscal.
+    Seção utilizada apenas na cotação do produto de Bikes para as fotos da Bike e/ou Nota Fiscal.
 
     ``Name`` Nome do arquivo
 
@@ -298,10 +296,8 @@ Serviço utilizado para soliciatar cotação.
     POST {{URL_AMBIENTE}}/quotation/api/quotation/
 
 
-Realizar cotação ehehehehe
+Exemplo E&O (Médicos PF)
 """"""""""""""""""
-
-**Exemplo Médicos PF**
 
 ::
 
@@ -353,7 +349,8 @@ Realizar cotação ehehehehe
         "EffectiveDate": "2019-05-20"
     }
 
-**Exemplo Bikes**
+Exemplo Bikes
+""""""""""""""""""
 
 ::
 
@@ -528,4 +525,4 @@ Realizar cotação ehehehehe
         ]
     }
 
-.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço .....
+.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :ref:`moderation`

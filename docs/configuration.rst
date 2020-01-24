@@ -1,8 +1,6 @@
 Configurações
 ===========
 
-.. image:: images/terminology.png
-
 Ambientes
 ^^^^^^^^^^^^^^
 Na URL dos serviços, vamos encontrar o parametro {{URL_AMBIENTE}}, que deve ser substituido de acordo com o ambiente no qual serão feitas as requisições.
@@ -16,8 +14,7 @@ Credenciais
 ^^^^^^^^^^^^^^
 Todas as requisições devem possuir dois parametros configurados no seu Header.
 
-``Chave``
-    Chave recebida pelo parceiro para utilizar em todas as requisições feitas para a API
+``Chave`` Chave recebida pelo parceiro para utilizar em todas as requisições feitas para a API
 
 **Header**
 

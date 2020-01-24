@@ -3,8 +3,6 @@ Formulário de risco
 
 Relação de perguntas x respostas do formulário de risco para cada produto E&O, diferenciados por Pessoa Física e Pessoa Jurídica.
 
-.. image:: images/terminology.png
-
 Médicos - Pessoa Física
 ^^^^^^^^^^^^^^
 Detalhamento do formulário de risco para o produto de Médicos Pessoa Física::
