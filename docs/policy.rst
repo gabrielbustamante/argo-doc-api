@@ -17,7 +17,6 @@ Serviço para obter o status de pagamento das parcelas.
 
 
 .. code-block:: json
-    :caption: Response
 
     {
       "application/json": {
