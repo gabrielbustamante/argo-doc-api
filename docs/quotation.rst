@@ -258,7 +258,7 @@ Serviço utilizado para se recuperar ou obter os dados de uma cotação utilizan
 
 
 
-Realizar cotação
+Realizar cotação - Padrão
 ^^^^^^^^^^^^^^
 Serviço utilizado para soliciatar cotação.
 
@@ -545,3 +545,46 @@ Exemplo Bikes
 
 .. Note:: Serviço utilizado para contratações do produto Bikes quando necessário
 
+Realizar cotação - Depósito Recursal
+^^^^^^^^^^^^^^
+Serviço utilizado para solicitar cotação de Depósito Recursal
+
+Headers da Requisição
+""""""""""""""""""
+
+``Content-Type`` application/json;v=2.0
+
+``Ocp-Apim-Subscription-Key`` {{Chave}}
+
+``Authorization`` Bearer {{Token}}
+
+.. Note:: Para obter a {{Chave}}, consulte a página de Configuração:ref:`configuration`. Para obter o {{Token}}, consulte a página de Autenticação:ref:`security`
+
+Body da Requisição
+""""""""""""""""""
+
+``IdOperation`` Identificador da operação utilizada.
+
+``RiskAnalysis`` 
+    Seção referente as perguntas e respostas do respectivo formulário de risco
+
+    ``questionId`` Id da questão
+    ``answer`` Resposta da questão
+    
+``PersonalData`` 
+    Seção referente as informações do segurado da apólice (Reclamante).
+
+    ``Name`` Nome
+    ``Email`` E-mail
+    ``Identity`` CPF/CNPJ do segurado
+
+``TakerData``
+    Seção referente aos dados do tomador
+    
+    ``Cnpj`` CNPJ do tomador
+
+``PolicyData``
+    Seção referente a dados da apólice
+
+    ``ContractName`` Nº do Processo
+    ``Claimant`` Tribunal/Vara

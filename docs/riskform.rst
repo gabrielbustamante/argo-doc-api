@@ -794,3 +794,81 @@ Detalhamento do formulário de risco para o produto de Bikes::
         "Tipo": "Texto Livre"
       }
     ]
+
+
+Depósito Recursal
+^^^^^^^^^^^^^^^^^^
+Detalhamento do formulário de risco para o produto Depósito Recursal::
+
+    [
+      {
+        "Id": 1,
+        "Texto": "Valor do Processo",
+        "Obrigatório": "Sim",
+        "Type": "Decimal"
+      },
+      {
+        "Id": 2,
+        "Texto": "Tipo de Recurso",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "Recurso Ordinário"
+          },
+          {
+            "Id": 2,
+            "Texto": "Recurso de Revista"
+          },
+          {
+            "Id": 3,
+            "Texto": "Embargos"
+          },
+          {
+            "Id": 4,
+            "Texto": "Recurso Extraordinário"
+          },
+          {
+            "Id": 5,
+            "Texto": "Recurso em Ação Rescisória"
+          },
+          {
+            "Id": 6,
+            "Texto": "Agravo de Instrumento"
+          }
+        ]
+      },
+      {
+        "Id": 3,
+        "Texto": "Adicional CPC",
+        "Obrigatório": "Sim",
+        "Tipo": "Decimal"
+      },
+      {
+        "Id": 4,
+        "Texto": "Início de Vigência",
+        "Obrigatório": "Sim",
+        "Type": "Data"
+      },
+      {
+        "Id": 5,
+        "Texto": "Prazo",
+        "Obrigatório": "Sim",
+        "Tipo": "Única escolha",
+        "Respostas": [
+          {
+            "Id": 1,
+            "Texto": "3 anos"
+          },
+          {
+            "Id": 2,
+            "Texto": "4 anos"
+          },
+          {
+            "Id": 3,
+            "Texto": "5 anos"
+          }
+        ]
+      }
+    ]
