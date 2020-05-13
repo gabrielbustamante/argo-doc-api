@@ -547,6 +547,13 @@ Exemplo Bikes
 
 Realizar cotação - Depósito Recursal
 ^^^^^^^^^^^^^^
+
+**Endpoint**
+
+::
+
+    POST {{URL_AMBIENTE}}/quotation/api/quotation/
+
 Serviço utilizado para solicitar cotação de Depósito Recursal
 
 Headers da Requisição
@@ -558,7 +565,7 @@ Headers da Requisição
 
 ``Authorization`` Bearer {{Token}}
 
-.. Note:: Para obter a {{Chave}}, consulte a página de Configuração:ref:`configuration`. Para obter o {{Token}}, consulte a página de Autenticação:ref:`security`
+.. Note:: Para obter a {{Chave}}, consulte a página de Configuração: ref:`Configurações`. Para obter o {{Token}}, consulte a página de Autenticação: ref:`Autenticação`
 
 Body da Requisição
 """"""""""""""""""
@@ -588,3 +595,50 @@ Body da Requisição
 
     ``ContractName`` Nº do Processo
     ``Claimant`` Tribunal/Vara
+
+**Exemplo Depósito Recursal**
+
+::
+
+    {
+        "IdOperation": "50",
+        "RiskAnalysis": 
+        [
+            {
+                "questionId": "1",
+                "answer": "123.45"
+            },
+            {
+                "questionId": "2",
+                "answer": "1"
+            },
+            {
+                "questionId": "3",
+                "answer": "5"
+            },
+            {
+                "questionId": "4",
+                "answer": "2020-04-23T03:00:00.000Z"
+            },
+            {
+                "questionId": "5",
+                "answer": "1"
+            }
+        ],
+        "PolicyData": 
+        {
+            "ContractName": "123456789",
+            "Claimant": "Teste Tribunal"
+        },
+        "TakerData": 
+        {
+            "Cnpj": "30291355000148"
+        },
+        "PersonalData": 
+        {
+            "Name": "Teste Reclamante",
+            "Email": "reclamante@email.com",
+            "Identity": "28116682000111"
+        }
+    }
+  

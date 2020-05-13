@@ -843,7 +843,8 @@ Detalhamento do formulário de risco para o produto Depósito Recursal::
         "Id": 3,
         "Texto": "Adicional CPC",
         "Obrigatório": "Sim",
-        "Tipo": "Decimal"
+        "Tipo": "Decimal",
+        "Valores Possiveis": ["0", "5", "10", "15", "20", "25", "30"]
       },
       {
         "Id": 4,
