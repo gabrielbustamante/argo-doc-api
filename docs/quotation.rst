@@ -565,7 +565,7 @@ Headers da Requisição
 
 ``Authorization`` Bearer {{Token}}
 
-.. Note:: Para obter a {{Chave}}, consulte a página de Configuração: ref:`Configurações`. Para obter o {{Token}}, consulte a página de Autenticação: ref:`Autenticação`
+.. Note:: Para obter a {{Chave}}, consulte a página de Configuração: :ref:`Configurações`. Para obter o {{Token}}, consulte a página de Autenticação: :ref:`Autenticação`
 
 Body da Requisição
 """"""""""""""""""
