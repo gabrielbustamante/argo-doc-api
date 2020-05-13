@@ -10,7 +10,7 @@ Argo API - Documentation (REST API)
    :caption: Introdução
 
    configuration
-   autentication
+   security
 
 .. toctree::
    :maxdepth: 1
