@@ -10,6 +10,7 @@ Argo API - Documentation (REST API)
    :caption: Introdução
 
    configuration
+   autentication
 
 .. toctree::
    :maxdepth: 1
@@ -18,6 +19,7 @@ Argo API - Documentation (REST API)
 
    riskform
    quotation
+   quick-quote
    checkout
 
 .. toctree::
