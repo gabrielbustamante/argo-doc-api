@@ -523,7 +523,7 @@ Exemplo Bikes
         ]
     }
 
-.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :ref:`/moderation` 
+.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :doc:`/moderation` 
 
 **Exemplo Bikes**
 
