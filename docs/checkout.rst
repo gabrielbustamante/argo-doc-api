@@ -73,6 +73,11 @@ Serviço para realizar o pagamento de um cotação.
 
     ``Profession`` Profissão
 
+``PolicyData`` 
+    Seção referente a dados da apólice (necessário somente para o produto de Depósito Recursal)
+
+    ``operationCode`` Código da operação utilizada na cotação.
+
 
 **Endpoint**
 
