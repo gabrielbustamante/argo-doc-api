@@ -523,7 +523,7 @@ Exemplo Bikes
         ]
     }
 
-.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação: :doc:`/moderation` 
+.. Note:: A cotação do produto de bike está sempre sujeito a moderação, por tanto, após solicitar a cotação, acompanhe os status da moderação através do serviço de consulta de status da moderação no :doc:`/moderation` 
 
 **Exemplo Bikes**
 
@@ -565,7 +565,7 @@ Headers da Requisição
 
 ``Authorization`` Bearer {{Token}}
 
-.. Note:: Para obter a {{Chave}}, consulte a página de Configuração: :ref:`configuration`. Para obter o {{Token}}, consulte a página de Autenticação: :ref:`security`
+.. Note:: Para obter a {{Chave}}, consulte a página :doc:`/configuration`. Para obter o {{Token}}, consulte a página de :doc:`/security`
 
 Body da Requisição
 """"""""""""""""""
